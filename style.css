@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=M+PLUS+1p:wght@400;700&family=Montserrat:wght@400;500;600;800&family=Roboto:ital,wght@0,400;0,700;1,500;1,700&family=Ubuntu:wght@300;400;500;700&family=Vollkorn:wght@500;700&family=Work+Sans:wght@400;600;700&family=Zilla+Slab:wght@400;700&display=swap");
+body {
+  margin: 0;
+  font-family: "Vollkorn", serif;
+}
+:root {
+  --black: #333333;
+  --white: #ffffff;
+  --dark: #333333;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul,
+li {
+  list-style: none;
+}
+.logo img {
+  width: 50px;
+  margin-left: 100px;
+}
+.header {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid var(--white);
+  height: 60px;
+}
+.header-menu {
+  display: flex;
+  margin-left: 350px;
+}
+.header-alem {
+  margin-left: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+
+  text-transform: uppercase;
+}
+.header-alem__title {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+.second-part img {
+  position: absolute;
+  z-index: -1;
+  clear: both;
+  width: 100%;
+  height: 500px;
+}
+.texts {
+  color: var(--white);
+  text-align: center;
+  padding-top: 50px;
+}
+.title-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 55px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.meddle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 55px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.small {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.81);
+}
+.yellow-cards {
+  clear: both;
+  color: var(--black);
+  text-align: center;
+  justify-self: center;
+  background-color: #fefec9;
+}
+.yellow-text {
+  margin-top: 90px;
+  text-align: center;
+ 
+}
+.btn {
+  height: 40px;
+  width: 140px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  background: transparent;
+  margin: 10px;
+}
+.grey-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ justify-content: center;
+ column-gap: 20px;
+ 
+ 
+}
+.grey-card{
+  display: grid;
+  background: #F5F5F5;
+
+  padding: 30px;
+}
+.title__card{
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+width: 150px;
+padding-left: 50px;
+text-align: center;
+text-transform: uppercase;
+}
+.text__card{
+  font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+width: 250px;
+padding-left: 10px;
+text-align: center;
+color: #333333;
+}
+.grey-cards img{
+  padding-left: 57px;
+
+
+}
+.img__cads{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background: #F5F5F5;
+  color: #000;
+ justify-content: center;
+ padding: 70px;
+ column-gap: 20px;
+}
+
+.img__title{
+  font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+
+}
+.img__text{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #333333;
+}
+.out__title{
+  text-align: center;
+  font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+}
+.portfolio{
+  display: grid;
+ grid-template-columns: repeat(4,1fr);
+ column-gap: 20px;
+ padding: 50px;
+
+}
+.info__text{
+  text-align: center;
+
+}
+.name{
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+}
+.proffession{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #333333;
+}
+.icona{
+  text-align: center;
+}
+.icona img{
+margin: 10px;
+}
+.center{
+  text-align: center;
+}
+.comments{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+.comments-tag{
+  width: 260px;
+  font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 33px;
+text-align: center;
+color: #333333;
+}
+.text-comment1{
+  margin-left: 150px;
+  
+}
+.text-comment2{
+  margin-left: 150px;
+}
+.comments img{
+  margin-left: 90px;
+}
+.comments-name{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+margin-left: 50px;
+text-transform: uppercase;
+
+color: #ABABAB;
+
+}
+.comments-name2{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  
+  margin-left: 70px;
+  text-transform: uppercase;
+  
+  color: #ABABAB;
+  
+  }
+.feadback{
+  background: #7EC4BD;
+
+}
+.feadback{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ justify-content: center;
+ padding: 30px 0 0 30px;
+ padding-left: 90px;
+}
+.imgheart{
+  width: 80px;
+  margin-left: 90px;
+}
+.img{
+  float: left;
+  margin-top: 4px;
+  padding-right: 4px;
+position: relative;
+left: 90px;
+  text-align: center;
+}
+.feadback-title{
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+height: 40px;
+width: 220px;
+text-transform: uppercase;
+text-align: center;
+padding-left: 30px;
+}
+.feadback-text{
+  font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 22px;
+color: #000;
+text-align: center;
+}
+.message{
+  padding-left: 100px;
+}
+.footer{
+  text-align: center;
+background-color: #000;
+color: #ffffff;
+max-height: 100vh;
+}
+.center{
+  padding: 20px;
+}
+.btn--footer{
+  color: #F5F5F5;
+  height: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  background: transparent;
+}
+input{
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+}
+textarea{
+  background: rgba(255, 255, 255, 0.2);
+}
+.footer-text{
+  padding: 20px;
+  font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+}
